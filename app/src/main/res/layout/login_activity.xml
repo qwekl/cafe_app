@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.techtown.mandk.LoginActivity"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="25dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            app:srcCompat="@drawable/image_mark"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="358dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="   안녕하세요.  M and K입니다."
+            android:textSize ="25dp"
+            android:textColor="#BD9424"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/idText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e-maill"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background ="#747474"
+            android:text="로그인하기"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textColor="#878787"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            />
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal ="true"
+        android:layout_marginTop="300dp"
+        />
+
+</RelativeLayout>

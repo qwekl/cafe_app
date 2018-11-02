@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coffee">
+        <item>전체</item>
+        <item>블렌디드</item>
+        <item>콜드브루</item>
+        <item>에소프레소</item>
+        <item>카푸치노</item>
+        <item>티</item>
+
+    </string-array>
+
+    <string-array name="dessert">
+    <item>전체</item>
+    <item>케이크</item>
+    <item>베이커리</item>
+    <item>샌드위치 , 샐러드</item>
+    <item>아이스크림</item>
+    </string-array>
+
+    <string-array name="product">
+        <item>전체</item>
+        <item>머그컵</item>
+        <item>글라스</item>
+        <item>텀블러</item>
+    </string-array>
+
+    <string-array name="size1">
+        <item>Tall</item>
+        <item>Grande</item>
+        <item>Venti</item>
+    </string-array>
+
+</resources>
